@@ -10,7 +10,7 @@ public class AddToCartTest extends driverSettings {
     @Test
     public void addProduct() {
 
-        new AddToCart(driver).addProduct("ahmetdemi@ahmetde.com","ahmet123", "Lacoste 2010893 Erkek Kol Saati "); // adress bilgisi olmayan hesap
+        new AddToCart(driver).addProduct("ahmetdemirel123@ahmetdemirel.com","ahmet123", "Lacoste 2010893 Erkek Kol Saati "); // adress bilgisi olmayan hesap
         //new AddToCart(driver).addProduct("demirelahmet9@gmail.com","ahmet123", "Lacoste 2010893 Erkek Kol Saati ");
     }
 }
