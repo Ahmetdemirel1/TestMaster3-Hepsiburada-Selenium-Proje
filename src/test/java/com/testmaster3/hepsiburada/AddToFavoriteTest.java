@@ -8,6 +8,6 @@ public class AddToFavoriteTest extends driverSettings {
 
     @Test
     public void addFavorite() {
-        new AddToFavorite(driver).addFavorite("demirelahmet9@gmail.com","ahmet123", "Apple iPhone X 256 GB (Apple Türkiye Garantili) ");
+        new AddToFavorite(driver).addFavorite("demirelahmet9@gmail.com","pass", "Apple iPhone X 256 GB (Apple Türkiye Garantili) ");
     }
 }
