@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class driverSettings {
     WebDriver driver;
+    public static RemoteWebDriver driver;
     public static final String USERNAME = "demirelahmet";
     public static final String ACCESS_KEY = "bba815c75f0c90da38b258e1df762c06";
     public static final String KEY = USERNAME + ":" + ACCESS_KEY;
